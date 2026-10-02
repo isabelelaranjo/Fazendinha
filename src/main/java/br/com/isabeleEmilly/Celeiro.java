@@ -23,7 +23,7 @@ public class Celeiro{
     }
     public void armazenarBatata(){
         if (celeiroCheio() == true){
-            System.out.println("O celeiro está cheio");
+            System.out.println("O celeiro está cheio"); // alterar campo, está errado, não deve conter mensagem
         } else{
             qtdeBatatas = qtdeBatatas + 2;
         }
